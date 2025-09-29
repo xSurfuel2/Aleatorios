@@ -8,18 +8,14 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int[] array = new int[50];
+        int[] array = new int[50]; //Cantidad de numeros que muestra
         Random rand = new Random();
 
         // Generar números aleatorios y guardarlos en el array
         for (int i = 0; i < array.length; i++)
         {
-            array[i] = rand.nextInt(100);
+            array[i] = rand.nextInt(101); //Rango de numeros
             System.out.println(array[i]);
-
         }
-
-
-
     }
 }
