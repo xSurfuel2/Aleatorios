@@ -88,4 +88,4 @@ Así produces 100 números aleatorios y los ordenas en cascada.
 
 ## 📝 Licencia / Contribución
 
-Aquí defines la licencia del proyecto y cómo otros pueden contribuir.
+Ángel Japón Castañeda.
