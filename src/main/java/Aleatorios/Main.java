@@ -1,4 +1,4 @@
-package org.example;
+package Aleatorios;
 
 import java.util.Random;
 
