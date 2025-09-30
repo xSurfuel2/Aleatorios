@@ -1,6 +1,6 @@
 # 🎲 Aleatorios
 
-Este proyecto es la **segunda parte** del sistema: genera una secuencia de números aleatorios según parámetros definidos y la envía (por salida estándar, fichero, etc.) para que luego pueda ser ordenada por el módulo “OrdenarNumeros”.
+Este proyecto es la **primera parte** del sistema: genera una secuencia de números aleatorios según parámetros definidos y la envía (por salida estándar, fichero, etc.) para que luego pueda ser ordenada por el módulo “OrdenarNumeros”.
 
 ---
 
@@ -25,7 +25,7 @@ Aleatorios/
 
 ## 🎯 Objetivo
 
-1. Ser la **segunda parte** del sistema completo: generar números aleatorios con parámetros configurables (cantidad, rango, semilla, etc.).  
+1. Ser la **primera parte** del sistema completo: generar números aleatorios con parámetros configurables (cantidad, rango, semilla, etc.).  
 2. Emitir los números en un formato que pueda ser consumido por el módulo de ordenación (por ejemplo, línea por línea, separados por espacios, JSON, etc.).  
 3. Empaquetar como un **.jar ejecutable** con Maven, para su uso directo desde la línea de comandos.
 
