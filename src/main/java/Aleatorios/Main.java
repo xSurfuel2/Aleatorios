@@ -15,6 +15,7 @@ public class Main
         for (int i = 0; i < array.length; i++)
         {
             array[i] = rand.nextInt(101); //Rango de numeros (de 0 a 100)
+            System.out.print(array[i] + " ");
         }
     }
 }
