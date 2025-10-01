@@ -6,8 +6,10 @@ En Java, el concepto de tubería (pipe) hace referencia a un mecanismo de comuni
 Una tubería conecta un flujo de salida (OutputStream o Writer) con un flujo de entrada (InputStream o Reader). Los datos escritos en un extremo (escritor) pueden leerse en el otro extremo (lector). Se utiliza para la comunicación entre hilos de un mismo proceso (no entre procesos distintos como en sistemas operativos).
 
 En nuestro proyecto las hemos usado de la siguiente manera:
-InputStreamReader isr = new InputStreamReader(System.in); //flujo de entrada
+
+```InputStreamReader isr = new InputStreamReader(System.in); //flujo de entrada
 BufferedReader br = new BufferedReader(isr); //buffer de lectura
+```
 
 ---
 
