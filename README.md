@@ -7,7 +7,8 @@ Una tubería conecta un flujo de salida (OutputStream o Writer) con un flujo de 
 
 En nuestro proyecto las hemos usado de la siguiente manera:
 
-```InputStreamReader isr = new InputStreamReader(System.in); //flujo de entrada
+```
+InputStreamReader isr = new InputStreamReader(System.in); //flujo de entrada
 BufferedReader br = new BufferedReader(isr); //buffer de lectura
 ```
 
