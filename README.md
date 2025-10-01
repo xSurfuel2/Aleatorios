@@ -1,6 +1,13 @@
 # 🎲 Aleatorios
 
-Este proyecto es la **primera parte** del sistema: genera una secuencia de números aleatorios según parámetros definidos y la envía (por salida estándar, fichero, etc.) para que luego pueda ser ordenada por el módulo “OrdenarNumeros”.
+Este proyecto es la **primera parte** del sistema: genera una secuencia de números aleatorios según parámetros definidos y la envía (por salida estándar, fichero, etc.) para que luego pueda ser ordenada por el módulo “OrdenarNumeros”. Para ello usaremos la relacion entre dos proyectos mediante el uso de tuberías o pipes.
+
+En Java, el concepto de tubería (pipe) hace referencia a un mecanismo de comunicación entre procesos o hilos que permite transferir datos de manera secuencial. Se usa principalmente en la entrada/salida (I/O) orientada a flujo, dentro del paquete java.io.
+Una tubería conecta un flujo de salida (OutputStream o Writer) con un flujo de entrada (InputStream o Reader). Los datos escritos en un extremo (escritor) pueden leerse en el otro extremo (lector). Se utiliza para la comunicación entre hilos de un mismo proceso (no entre procesos distintos como en sistemas operativos).
+
+En nuestro proyecto las hemos usado de la siguiente manera:
+InputStreamReader isr = new InputStreamReader(System.in); //flujo de entrada
+BufferedReader br = new BufferedReader(isr); //buffer de lectura
 
 ---
 
